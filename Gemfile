@@ -29,6 +29,8 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails', '~> 4.0', '>= 4.0.1'
+  gem 'did_you_mean', '~> 1.4'
+
 end
 
 group :development do
@@ -41,7 +43,7 @@ end
 group :test do
   gem 'factory_bot_rails', '~> 6.1'
   gem 'shoulda-matchers', '~> 4.3'
-  gem 'faker', '~> 2.13'
+  gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
   gem 'database_cleaner', '~> 1.8', '>= 1.8.5'
 end
 
