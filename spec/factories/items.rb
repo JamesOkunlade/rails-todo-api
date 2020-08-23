@@ -5,6 +5,6 @@ FactoryBot.define do
         # name { Faker::StarWars.character }
         name { Faker::Name.name }
         done { false }
-        todo_id nil
+        todo
     end
 end
