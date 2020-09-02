@@ -24,6 +24,8 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'bcrypt', '~> 3.1.7'
 gem 'jwt'
 gem 'active_model_serializers', '~> 0.10.10'
+gem 'will_paginate', '~> 3.3'
+gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
@@ -46,7 +48,6 @@ end
 group :test do
   gem 'factory_bot_rails', '~> 6.1'
   gem 'shoulda-matchers', '~> 4.3'
-  gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
   gem 'database_cleaner', '~> 1.8', '>= 1.8.5'
 end
 

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/faker-ruby/faker.git
-  revision: 35ec5ed4e8a7f7477a6583a8de9a70256d4192a2
+  revision: 5c8ded510780d391a0f91a2f6e149d8abb5f6609
   branch: master
   specs:
     faker (2.13.0)
@@ -186,6 +186,7 @@ GEM
     websocket-driver (0.7.3)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
+    will_paginate (3.3.0)
     zeitwerk (2.4.0)
 
 PLATFORMS
@@ -210,6 +211,7 @@ DEPENDENCIES
   spring-watcher-listen (~> 2.0.0)
   sqlite3 (~> 1.4)
   tzinfo-data
+  will_paginate (~> 3.3)
 
 RUBY VERSION
    ruby 2.6.2p47
