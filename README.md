@@ -1,24 +1,81 @@
-# README
+<h1 align="center">Rails Todo API 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://twitter.com/JamesOkunlade" target="_blank">
+    <img alt="Twitter: JamesOkunlade" src="https://img.shields.io/twitter/follow/JamesOkunlade.svg?style=social" />
+  </a>
+</p>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## Stack
 
-* Ruby version
+- Ruby On Rails
+- Database - PostgreSQL
 
-* System dependencies
+## Getting Started
 
-* Configuration
+To get a local copy up and running follow these simple steps.
 
-* Database creation
+### Install
 
-* Database initialization
+- Follow this steps according to get you running
 
-* How to run the test suite
+1. clone the repo
 
-* Services (job queues, cache servers, search engines, etc.)
+```sh
+git clone git@github.com:JamesOkunlade/rails-todo-api.git
+```
+2. change directory 
+```sh
+cd rails-todo-api
+```
 
-* Deployment instructions
+3. install dependencies
 
-* ...
+```sh
+bundle install
+```
+
+4. start the project
+
+```sh
+rails s
+```
+
+## Usage
+
+  There are several endpoint in this API and we'll be discussing the functionalities of each endpoint
+
+- POST - for user sign in
+  ```sh
+  /auth/login
+  ```
+- POST - for user sign up
+  ```sh
+  /signup
+  ```
+- GET - for fetching the todos
+  ```sh
+  /todos
+  ```
+- POST - for creating the todos
+  ```sh
+  /todos
+  ```
+- GET - for fetching one particular todo
+  ```sh
+  /todos/:id
+  ```
+- GET - for fetching the todo items
+  ```sh
+  /todos/:todo_id/items
+  ```
+- POST - for creating the todo items
+  ```sh
+  /todos/:todo_id/items
+  ```
+- GET - for fetching one particular todo item
+  ```sh
+  /todos/:todo_id/items/:id
+  ```
+
