@@ -49,7 +49,7 @@ RSpec.configure do |config|
 
   # previously `config.include RequestSpecHelper, type: :request`
   config.include RequestSpecHelper
-  config.include ControllerSpecHelper
+  config.include ControllerSpecHelper 
 
 
   # If you're not using ActiveRecord, or you'd prefer not to run each of your
